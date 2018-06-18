@@ -1,3 +1,5 @@
+// Test to turn the OPC-N2 "ON"
+
 #include <SPI.h>
 
 int SSpin = 10;                   // slave select pin
