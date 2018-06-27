@@ -4,8 +4,8 @@ Arduino C++ library for operating optical particle counter OPC-N2 from Alphasens
 
 Commands included are:
 
-    -- OPC_on()      - turn OPC on (laser and fan)
-    -- OPC_off()     - turn OPC off (laser and fan)
+    -- OPC_on()      - Turn on the OPC laser and fan. Returns 1 if successful.
+    -- OPC_off()     - Turn off the OPC laser and fan. Returns 1 if successful.
     -- OPC_getData() - read count/s per bin, sample flow rate (sfr), and sampling period (sp) from histogram, then reset histogram
 
 All communication is via SPI logic lines. NOTE THAT THE SPI LOGIC LINES REQUIRE 3v3 VOLTAGE SUPPLY!
