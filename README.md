@@ -10,12 +10,22 @@ Commands included are:
 
 All communication is via SPI logic lines. NOTE THAT THE SPI LOGIC LINES REQUIRE 3v3 VOLTAGE SUPPLY!
 
-Pin Layout:
+Pin Layout (Arduino):
 
     -- SS   --> pin 10
     -- MOSI --> pin 11
     -- MISO --> pin 12
     -- SCK  --> pin 13
+    
+Pin Layout (OPC):
+
+    -- Vcc  --> pin 1
+    -- SCK  --> pin 2
+    -- MISO --> pin 3
+    -- MOSI --> pin 4
+    -- SS   --> pin 5
+    -- GND  --> pin 6
+    NOTE: pin 1 on the OPC is closest to the USB micro connector.
     
 NOTES:
 
