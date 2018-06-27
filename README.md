@@ -8,7 +8,7 @@ Commands included are:
     -- OPC_off()     - turn OPC off (laser and fan)
     -- OPC_getData() - read count/s per bin, sample flow rate (sfr), and sampling period (sp) from histogram, then reset histogram
 
-Note that communication is via SPI. More commands for the sensor are available.
+All communication is via SPI logic lines. NOTE THAT THE SPI LOGIC LINES REQUIRE 3v3 VOLTAGE SUPPLY!
 
 Pin Layout:
 
