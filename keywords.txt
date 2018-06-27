@@ -1,5 +1,0 @@
-alpha			KEYWORD1
-off			KEYWORD2
-on			KEYWORD2
-getData			KEYWORD2
-setupSPI		KEYWORD2
