@@ -1,6 +1,6 @@
 # Alphasense-OPC-N2
 
-Arduino library for operating optical particle counter OPC-N2 from Alphasense.
+Arduino C++ library for operating optical particle counter OPC-N2 from Alphasense.
 
 Commands included are:
 
